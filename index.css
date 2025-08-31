@@ -1,0 +1,77 @@
+* 
+body {
+ font-family: Arial, sans-serif;
+  background-image: url("https://img.freepik.com/free-photo/top-view-bowls-with-veggies-fruit-copy-space_23-2148585684.jpg?semt=ais_hybrid&w=740&q=80");
+  background-position: center;  
+  background-size: cover;       
+  background-repeat: no-repeat; 
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: #2c3e50;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 250PX;
+  padding: 15px; 
+  transition: transform 0.2s; 
+}
+  
+.card:hover {
+  transform: scale(1.02);
+  }
+
+
+.card img {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.card h2 {
+  margin: 10px 0;
+}
+
+.card ul {
+  list-style-type: "🍴 ";
+  text-align: left;
+  padding-left: 20px;
+}
+
+.card p {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #16a085;
+}
+.my-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.my-button:hover {
+  background-color: #2980b9;
+}
+
+
